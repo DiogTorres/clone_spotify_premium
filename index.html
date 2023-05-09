@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link src="./components/style.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Clone Spotify</title>
 </head>
 <body>
     <!--Navbar-->
+    
     <navbar id="navbar">
-        <header class="container">
-            <img src="./images/Spotify_Logo_CMYK_Black.png">
+        <div class="navbar-container">
+            <img src="./images/logo_branca.png" alt="" id="logo"/>
             <ul>
-                <a href="#"><li class="navbar-item">Premium</li></a>
-                <a href="#"><li class="navbar-item">Suporte</li></a>
-                <a href="#"><li class="navbar-item">Baixar</li></a>
-                <a href="#"><li class="navbar-item">Inscreva-se</li></a>
-                <a href="#"><li class="navbar-item">Entrar</li></a>
+                <li class="navbar-item">Premium</li>
+                <li class="navbar-item">Suporte</li>
+                <li class="navbar-item">Baixar</li>
+                <li class="navbar-item">Inscreva-se</li>
+                <li class="navbar-item">Entrar</li>
             </ul>
-        <header>
-    </navbar>
-    <!--Showcase-->
-    <div id="Showcase">
-        <div class="showcase-container">
-            <h1></h1>
-            <h2></h2>
-            <button id="btn-1"></button>
-            <button id="btn-2"></button>
-            <h3></h3>
         </div>
     </div>
+    <!--Showcase-->
+    <main>
+        <div id="showcase">
+            <aside>
+                <h1>R$ 0,00 por 3 meses de Premium</h1>
+                <h2>Curta músicas sem anúncios, ouça no modo offline e muito mais.<br>Cancele quando quiser.</h2>
+                <button id="btn-1">Experimente 3 meses por R$0,00</button>
+                <button id="btn-2">Ver Planos</button>
+                <h3>Somente no plano Individual. Depois, é só R$ 19,90/mês. Sujeito a Termos e Condições. Disponível apenas para quem nunca usou o Premium. A oferta termina em 16/05/2023.</h3>
+                
+            </aside>
+
+            <article>
+                <img src="https://i.scdn.co/image/ab671c3d0000f43024fd968505540cdd20ca46b8" id="premium-img">
+            </article>
+        </div>
+    </main>
     <!--Footer-->
     
 
