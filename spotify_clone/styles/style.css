@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;;
+   
+   
+}
+
+#navbar{
+    display: flex;
+    background-color: #000000;
+    color: white;
+    justify-content: center;
+    flex-direction: row; 
+    
+}
+
+#navbar .navbar-container{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+   
+}
+
+#navbar .navbar-container #logo{
+    height: 140px;
+    width: auto;
+    
+}
+
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+#navbar .navbar-container li{
+    padding: 0 20px;
+    
+}
+#navbar .navbar-container li:nth-child(4){
+    border-left: 2px solid white;
+}
+
+/*Showcase*/
+
+#showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A1248B;
+    height: 492.2px;
+    width: 75%; 
+}
+
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 50px 0;
+    
+}
+
+p{
+    
+    color: white;
+}
+
+.btn-primary{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;   
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 300px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-secondary{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: #00000000;
+    color: white;
+    height: 50px;
+    width: 130px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+img{
+    width: 100px;
+}
+
+
+
