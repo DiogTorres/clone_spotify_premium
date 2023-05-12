@@ -5,9 +5,7 @@
 }
 
 body{
-   font-family: 'Roboto', sans-serif;;
-   
-   
+    font-family: Helvetica ,Arial,sans-serif;
 }
 
 #navbar{
@@ -57,26 +55,29 @@ body{
     align-items: center;
     background-color: #A1248B;
     height: 492.2px;
-    width: 75%; 
+    
+    
 }
 
 #showcase .showcase-container{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+    width: 50%;
+    color: rgb(255, 255, 255);
+    height: 400px;
 
 }
 
 h2{
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
-    margin: 0 0 50px 0;
+    padding: 0 0 50px 0;
     
 }
 
 p{
-    
+    font-size: 13px;
     color: white;
 }
 
@@ -104,7 +105,7 @@ p{
 }
 
 img{
-    width: 100px;
+    width: 400px;
 }
 
 
