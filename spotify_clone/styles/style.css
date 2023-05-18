@@ -56,7 +56,6 @@ body{
     background-color: #A1248B;
     height: 492.2px;
     
-    
 }
 
 #showcase .showcase-container{
@@ -72,19 +71,29 @@ body{
 h2{
     font-size: 50px;
     color: rgb(255, 255, 255);
-    padding: 0 0 50px 0;
+    padding: 0 0 35px 0;
     
 }
 
 p{
-    font-size: 13px;
+    font-size: 12px;
     color: white;
+}
+
+#btn-setup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+button{
+    margin: 0 10px;
 }
 
 .btn-primary{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 30px;   
-
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     height: 50px;
@@ -106,6 +115,43 @@ p{
 
 img{
     width: 400px;
+}
+
+/*Porque ser premium?*/
+
+#premium{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+#main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+#premium-title{
+    text-align: center;
+    margin: 60px 0px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    justify-content: space-between
+}
+
+li{
+    padding: 0 20px;
+}
+
+#description{
+    color: black;
+    font-size: 14px;
 }
 
 
